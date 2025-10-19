@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AGRINOVA - Smart Kitchen Garden Kits</title>
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0; padding: 0;
+        background: linear-gradient(180deg, #e8f5e9, #f9f9f9);
+        color: #333;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+    header {
+        background: linear-gradient(135deg, #43a047, #66bb6a);
+        color: white; text-align: center; padding: 80px 20px;
+        animation: fadeInDown 1.5s ease-out;
+        position: relative; overflow: hidden;
+    }
+    header h1 { margin: 0; font-size: 2.5em; }
+    header p { margin: 15px 0; font-size: 1.2em; }
+
+    .hero-img {
+        width: 80%; max-width: 500px; border-radius: 20px;
+        margin-top: 30px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        animation: float 3s ease-in-out infinite alternate;
+    }
+
+    .cta-buttons a {
+        display: inline-block;
+        margin: 15px 10px; padding: 15px 30px;
+        background: #fff; color: #388e3c; font-weight: bold;
+        border-radius: 30px; text-decoration: none;
+        transition: all 0.4s ease;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .cta-buttons a:hover {
+        background: #388e3c; color: white; transform: scale(1.08);
+        box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+    }
+
+    section {
+        padding: 60px 20px; text-align: center;
+        animation: fadeInUp 1s ease-in-out forwards;
+    }
+    h2 { color: #2e7d32; margin-bottom: 20px; }
+
+    ul.centered-list {
+        list-style: none; padding: 0; margin: 30px 0;
+        display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;
+    }
+    ul.centered-list li {
+        background: #a5d6a7; padding: 15px 25px;
+        border-radius: 20px; font-weight: 500;
+        transition: transform 0.3s;
+    }
+    ul.centered-list li:hover { transform: scale(1.1); background: #81c784; }
+
+    .features {
+        display: flex; flex-wrap: wrap; justify-content: center; gap: 25px;
+        margin-top: 30px;
+    }
+    .feature {
+        background: white; padding: 25px; width: 260px; border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .feature:hover { transform: translateY(-10px); box-shadow: 0 6px 20px rgba(0,0,0,0.15); }
+
+    .feature img {
+        width: 100%; height: 160px; object-fit: cover; border-radius: 10px; margin-bottom: 10px;
+    }
+
+    .testimonials {
+        background: linear-gradient(120deg, #c8e6c9, #f1f8e9);
+        padding: 50px 20px; border-radius: 20px;
+    }
+    .testimonial {
+        background: white; margin: 10px auto; padding: 20px;
+        width: 80%; border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        font-style: italic;
+    }
+
+    footer {
+        background: #2e7d32; color: white;
+        text-align: center; padding: 25px 15px;
+    }
+    footer a { color: #a5d6a7; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    /* Animations */
+    @keyframes fadeInDown { from {opacity:0; transform:translateY(-40px);} to {opacity:1; transform:translateY(0);} }
+    @keyframes fadeInUp { from {opacity:0; transform:translateY(40px);} to {opacity:1; transform:translateY(0);} }
+    @keyframes float { from {transform: translateY(0);} to {transform: translateY(-10px);} }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Grow Fresh, Pesticide-Free Herbs at Home 🌿</h1>
+    <p>Smart Kitchen Garden Kits with IoT sensors, automated care & mobile tracking.</p>
+    <img src="https://www.supragarden.com/WebRoot/vilkasfi02/Shops/2016122606/6351/D2AA/D6BB/6FEC/4F91/0A28/1011/3FD7/hydro-level-garden-system.jpg" alt="Smart Garden" class="hero-img">
+    <div class="cta-buttons">
+        <a href="mailto:info@agrinova.in">Order Now</a>
+        <a href="demo.html">Watch Demo</a>
+    </div>
+</header>
+
+<section id="about">
+    <h2>Why AGRINOVA?</h2>
+    <p>Transform your kitchen into a smart, green oasis with automated gardening solutions.</p>
+    <ul class="centered-list">
+        <li>Automated watering & nutrient control</li>
+        <li>Real-time app tracking</li>
+        <li>Compact design for urban homes</li>
+        <li>Eco-friendly, pesticide-free food</li>
+    </ul>
+</section>
+
+<section id="features">
+    <h2>Features</h2>
+    <div class="features">
+        <div class="feature">
+            <img src="https://th-i.thgim.com/public/incoming/xlu637/article68224130.ece/alternates/FREE_1200/DSC_2129.jpeg" alt="Automation">
+            <strong>Automated Care</strong><br> Monitors water & nutrients automatically.
+        </div>
+        <div class="feature">
+            <img src="https://as1.ftcdn.net/v2/jpg/03/62/22/44/1000_F_362224432_sbDuCpwQg58mTtBq9gWyHDiqef1gYLdH.jpg" alt="App">
+            <strong>App Integration</strong><br>Track plant growth in real-time on your phone.
+        </div>
+        <div class="feature">
+            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd" alt="Pesticide-Free">
+            <strong>Healthy Produce</strong><br>Grow 100% organic herbs & veggies.
+        </div>
+        <div class="feature">
+            <img src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce" alt="Compact Design">
+            <strong>Compact Design</strong><br>Fits perfectly in apartments & kitchens.
+        </div>
+    </div>
+</section>
+
+<section id="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial">"AGRINOVA made gardening effortless! I enjoy fresh herbs every morning!" – Priya S.</div>
+    <div class="testimonial">"Perfect for small spaces. The app makes it fun and easy!" – Anjali R.</div>
+</section>
+
+<section id="order">
+    <h2>Ready to Grow Your Own Food?</h2>
+    <p>Join thousands of happy home gardeners today!</p>
+    <div class="cta-buttons">
+        <a href="mailto:info@agrinova.in">Order Now</a>
+        <a href="demo.html">Watch Demo</a>
+    </div>
+</section>
+
+<footer>
+    <p>Contact: info@agrinova.in | WhatsApp: +91-9876543210</p>
+    <p>
+        <a href="">Instagram</a> |
+        <a href="">Facebook</a>
+    </p>
+    <p>&copy; 2025 AGRINOVA. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+
